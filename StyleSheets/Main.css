@@ -1,0 +1,14 @@
+html
+{
+    margin: 0;
+    font-size: 20px;
+    color: #e2d4d4;
+    font-family: 'Lato', sans-serif;
+    background: #090c2b;
+	cursor: default;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}

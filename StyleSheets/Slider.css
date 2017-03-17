@@ -1,0 +1,50 @@
+.slider-container {
+    text-align: center;
+    height: 386px;
+    margin-top: 90px;
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+.image-container {
+    width: 640px;
+    height: 360px;
+    border: 1px solid white;
+    background-color: #000;
+    order: 2;
+}
+
+.image-container>img {
+    max-width: 640px;
+    max-height: 360px;
+}
+
+.circles {
+    cursor: default;
+    height: 24px;
+}
+
+.arrow {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.arrow[data-id="left-arrow"] {
+    order: 1;
+}
+
+.arrow[data-id="right-arrow"] {
+    order: 3;
+}
+
+.icon-circle-empty {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon-circle {
+    display: inline-block;
+}
